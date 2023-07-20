@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif, Arial;
+  color: #444444;
+}
+
+h1 {
+  text-align: center;
+}
+
+#from,
+#to {
+  font-weight: 700;
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header button {
+  border: none;
+  background-color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#inputs {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#outer {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
